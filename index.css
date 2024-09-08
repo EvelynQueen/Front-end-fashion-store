@@ -1,0 +1,62 @@
+/* reset Css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:  border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   /*Hoặc 100% */
+    background-attachment: fixed;
+}
+
+/* container */
+
+/* left_block */
+
+.inner_left_block{
+    background-color: rgb(34, 31, 31);
+    position: fixed;
+    top: 0;
+    left: 1%;
+    right: 75%;
+}
+.input #desc{
+    height: 5rem;
+}
+/* right_block */
+
+.search_btn{
+    background-color : white;
+}
+/* searching bar */
+.custome-inp-w{
+    width: 45rem;
+    margin-right: 2rem;
+}
+.custome-btn-w{
+    width: 5rem;
+}
+
+/* merchandise */
+.item{
+    width: 20rem;
+    height: 30rem;
+    background-color: white;
+    flex-direction: column;
+    padding: 0; 
+}
+.item_img{
+    display: block;
+    width: 100%;
+}
+
+
